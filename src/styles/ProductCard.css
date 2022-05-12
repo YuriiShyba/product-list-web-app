@@ -1,0 +1,13 @@
+.product {
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(207, 207, 207);
+    border-radius: 15px;
+    padding: 15px;
+    margin: 15px 25px;
+}
+.product-buttons__delete-button {
+    margin-right: 5px;
+}

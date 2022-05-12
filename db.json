@@ -1,0 +1,40 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "imageUrl": "https://picsum.photos/200",
+            "name": "Product name",
+            "count": 0,
+            "size": {
+                "width": 200,
+                "height": 200
+            },
+            "weight": "200g",
+            "comments": ["CommentModel", "CommentModel"]
+        },
+        {
+            "id": 2,
+            "imageUrl": "https://picsum.photos/201",
+            "name": "Another name",
+            "count": 0,
+            "size": {
+                "width": 200,
+                "height": 200
+            },
+            "weight": "200g",
+            "comments": ["CommentModel", "CommentModel"]
+        },
+        {
+            "id": 3,
+            "imageUrl": "https://picsum.photos/202",
+            "name": "Some product",
+            "count": 0,
+            "size": {
+                "width": 200,
+                "height": 200
+            },
+            "weight": "200g",
+            "comments": ["CommentModel", "CommentModel"]
+        }
+    ]
+}
