@@ -14,7 +14,7 @@ export default function ProductCard({ product, onClickAdd, onClickDelete, onClic
     return (
         <div className="product" onClick={onClick}>
             <div className="product__image">
-                <img src="https://picsum.photos/200" alt={product.name} />
+                <img src={product.imageUrl} alt={product.name} />
             </div>
             <h2 className="product__name">{product.name}</h2>
             <p>Weight: {product.weight}</p>
